@@ -1,0 +1,10 @@
+[project]
+name = "wiki-backend"
+version = "0.1.0"
+description = "Wiki 知识库管理系统后端 (FastAPI)"
+requires-python = ">=3.11"
+
+[tool.uvicorn]
+host = "0.0.0.0"
+port = 8000
+reload = true
